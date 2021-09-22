@@ -1,83 +1,36 @@
-/* Comments */
-
-/* Element Selectors */
-
-h1 {
-    color: rgb(173, 0, 173);
-    text-decoration: underline;
-}
-
-
-p {
-    font-size: 20px;
-    font-weight: 700;
-}
-
-/* Class Selectors */
-
-.subtitle {
-    color: skyblue;
-}
-
-#Burak { 
-    color: brown;
-}
-
-h3:hover {
-    text-decoration: underline;
-    color: red;
-}
-
-p{
-    width: 50%;
-    color: yellow;
-    background-color: tomato;
-
-    padding: 10px 2px 30px 5px;
-
-    margin: 30px;
-    border: 2px solid black;
-    border-radius: 20px;
-    /* to make it rounded */
-
-    /* padding-left: 5px;
-    padding-right: 2px;
-    padding-top: 10px;
-    padding-bottom: 30px; */
-    /* padding to the top right bottom left 10px 2 px 30px 5px */
-
-    /* padding: 20px 5px; */
-    /* 20pcx to the top and bottom, 5px to the right and left. */
-}
-
-
-button { 
-    
-    color: white;
-    background-color: firebrick;
-    border: 0;
-    border-radius: 5px;
-    padding: 10px;
-    margin: 10px;
-
-}
-
-/* ID Selectors */
-#msg {
-    color: darkgoldenrod;
-}
-
-/* Universal Selectors */
-
-* { 
-    color: black;
-}
-
-
-html, body {
+body, html {
     margin: 0;
     padding: 0;
-    /* font-family: 'Cedarville Cursive', cursive; */
     font-family: sans-serif;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; 
+}
+
+header {
+    margin: 20px;
+}
+ nav a {
+     font-size: 24px;
+     font-weight: 400px;
+     text-decoration: none;
+     padding: 8px 16px 8px 16px;
+ }
+
+ a:hover {
+    text-decoration: underline;
+ }
+
+ button {
+     background-color: black;
+     color: white;
+     border-radius: 10px;
+     font-size: 18px;
+     font-weight: 700;
+     border: none;
+     padding: 14px 24px 16px 24px;
+     cursor: pointer;
+ }
+
+.manish {
+    font-size: 30px;
+    color: blue;
 }
